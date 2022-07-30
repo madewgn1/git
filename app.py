@@ -132,7 +132,7 @@ def info_refs(project_name):
 #@auth.login_required
 @app.route('/git-receive-pack', defaults={'project_name': ''}, methods=('POST',))
 @app.route('/<string:project_name>/git-receive-pack', methods=('POST',))
-#@auth.login_required
+@auth.login_required
 def git_receive_pack(project_name):
     repoPath = getRepositoryPath(project_name)
     p = subprocess.Popen(['git-receive-pack', '--stateless-rpc', repoPath], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
