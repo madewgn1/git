@@ -67,7 +67,7 @@ def repo(Repo):
     # show file list on repos/rRrpo
     #path_to_file = f'{repo}/readme'
     #path = Path(path_to_file)
-    re = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
+    re = str(repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"]))
 
     if not "readme" in re():
         p = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
