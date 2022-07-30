@@ -45,7 +45,7 @@ def getRepositoryPath(projectName):
 
 @app.route('/')
 def index():
-    return 'git clone ' + request.url + '/repo-name'
+    return 'git clone ' + request.url + 'repo-name'
 
 @app.route("/<string:Repo>", methods=['GET', 'POST', 'DELETE'])
 def repo(Repo):
@@ -75,7 +75,10 @@ def repo_file(Repo, file):
 
     return p
 
-
+@app.route("/pull")
+def update():
+    os.system("git pull")
+    return "berhasil di update"
 
 
 @app.route("/new/<string:repo_name>", methods=['GET', 'POST'])
