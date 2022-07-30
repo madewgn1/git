@@ -69,14 +69,15 @@ def repo(Repo):
     #path = Path(path_to_file)
     re = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
 
-    if str("readme") in re():
+    if not "readme" in re():
+        p = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
+        return f'{p}\n\n readme not found'
+
+    else:
         p = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
         a = repo.execute(["git", "show", "master:readme"])
         hasil = f'{p} \n\n{a}'
         return hasil
-    else:
-        p = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
-        return f'{p}\n\n readme not found'
 
 @app.route("/<string:Repo>/<string:file>", methods=['GET', 'POST', 'DELETE'])
 def repo_file(Repo, file):
