@@ -129,7 +129,7 @@ def info_refs(project_name):
     p.wait()
     return res
 
-@auth.login_required
+#@auth.login_required
 @app.route('/git-receive-pack', defaults={'project_name': ''}, methods=('POST',))
 @app.route('/<string:project_name>/git-receive-pack', methods=('POST',))
 #@auth.login_required
