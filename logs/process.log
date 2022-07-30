@@ -19,3 +19,235 @@
 2022-07-30 10:06:53,501 - app - DEBUG - repos/ff
 2022-07-30 10:06:53,566 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 10:06:53] "GET /ff/info/refs?service=git-upload-pack HTTP/1.1" 200 -
 2022-07-30 10:06:54,615 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 10:06:54] "POST /ff/git-upload-pack HTTP/1.1" 200 -
+2022-07-30 20:45:39,379 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.102:8000 (Press CTRL+C to quit)
+2022-07-30 20:45:39,390 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 20:45:41,454 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 20:45:41,509 - werkzeug - INFO -  * Debugger PIN: 632-135-256
+2022-07-30 20:45:47,824 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:45:47] "GET / HTTP/1.1" 200 -
+2022-07-30 20:45:48,768 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:45:48] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 20:46:41,233 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:46:41] "GET / HTTP/1.1" 200 -
+2022-07-30 20:46:41,877 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:46:41] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 20:48:13,112 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:48:13] "GET / HTTP/1.1" 200 -
+2022-07-30 20:48:13,827 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:48:13] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 20:48:16,251 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:48:16] "[35m[1mGET /git HTTP/1.1[0m" 500 -
+2022-07-30 20:48:16,347 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:48:16] "GET /git?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-30 20:48:16,355 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:48:16] "GET /git?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-30 20:48:16,412 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:48:16] "GET /git?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-30 20:48:16,536 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:48:16] "[36mGET /git?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 20:48:19,589 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:48:19] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 20:48:20,759 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:48:20] "GET /halo HTTP/1.1" 200 -
+2022-07-30 20:48:20,974 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:48:20] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 20:48:22,581 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:48:22] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 20:48:23,968 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:48:23] "GET /ff HTTP/1.1" 200 -
+2022-07-30 20:48:24,171 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:48:24] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 20:48:43,621 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:48:43] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 20:49:24,441 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:49:24] "GET / HTTP/1.1" 200 -
+2022-07-30 20:49:24,832 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:49:24] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 20:49:49,443 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:49:49] "GET / HTTP/1.1" 200 -
+2022-07-30 20:49:49,657 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 20:49:49] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 20:51:28,073 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 20:51:28,720 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 20:51:31,779 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 20:51:31,812 - werkzeug - INFO -  * Debugger PIN: 117-219-669
+2022-07-30 20:51:44,089 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 20:51:44,504 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 20:51:47,507 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 20:51:47,516 - werkzeug - INFO -  * Debugger PIN: 139-121-613
+2022-07-30 21:29:33,346 - werkzeug - INFO -  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.4.165.144:8000 (Press CTRL+C to quit)
+2022-07-30 21:29:33,356 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:29:35,271 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:29:35,276 - werkzeug - INFO -  * Debugger PIN: 945-371-236
+2022-07-30 21:30:38,295 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:30:38] "GET / HTTP/1.1" 200 -
+2022-07-30 21:30:38,800 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:30:38] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:31:02,888 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:31:02] "GET / HTTP/1.1" 200 -
+2022-07-30 21:31:03,160 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:31:03] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:32:19,809 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 21:32:20,309 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:32:24,949 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:32:24,969 - werkzeug - INFO -  * Debugger PIN: 201-888-886
+2022-07-30 21:32:25,118 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:32:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-07-30 21:32:25,177 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:32:25] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:32:25,191 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:32:25] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-30 21:32:25,202 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:32:25] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-30 21:32:25,337 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:32:25] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-30 21:32:25,467 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:32:25] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 21:32:45,521 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 21:32:45,919 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:32:49,742 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:32:49,791 - werkzeug - INFO -  * Debugger PIN: 973-137-921
+2022-07-30 21:32:50,771 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:32:50] "GET / HTTP/1.1" 200 -
+2022-07-30 21:32:51,094 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:32:51] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:34:04,325 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 21:34:04,699 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:34:06,403 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:34:06,408 - werkzeug - INFO -  * Debugger PIN: 111-532-793
+2022-07-30 21:34:35,953 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 21:34:36,384 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:34:38,947 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:34:38,952 - werkzeug - INFO -  * Debugger PIN: 841-289-158
+2022-07-30 21:34:39,076 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:34:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-07-30 21:34:39,192 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:34:39] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-07-30 21:34:39,212 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:34:39] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-07-30 21:34:39,357 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:34:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 21:34:39,473 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:34:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 21:34:54,358 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 21:34:54,798 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:34:57,471 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:34:57,476 - werkzeug - INFO -  * Debugger PIN: 533-219-234
+2022-07-30 21:34:57,596 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:34:57] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-07-30 21:34:57,656 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:34:57] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-07-30 21:34:57,669 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:34:57] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-07-30 21:34:57,768 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:34:57] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 21:34:57,876 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:34:57] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 21:35:13,895 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 21:35:14,355 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:35:16,823 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:35:16,827 - werkzeug - INFO -  * Debugger PIN: 248-721-707
+2022-07-30 21:35:16,929 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:35:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-07-30 21:35:16,983 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:35:16] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-07-30 21:35:16,992 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:35:16] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-07-30 21:35:17,042 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:35:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 21:35:17,154 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:35:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 21:36:08,841 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 21:36:09,224 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:36:11,837 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:36:11,841 - werkzeug - INFO -  * Debugger PIN: 998-351-237
+2022-07-30 21:36:11,946 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:36:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-07-30 21:36:12,014 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:36:12] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-07-30 21:36:12,026 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:36:12] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-07-30 21:36:12,140 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:36:12] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 21:36:12,260 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:36:12] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 21:36:27,225 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 21:36:27,613 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:36:29,263 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:36:29,267 - werkzeug - INFO -  * Debugger PIN: 142-500-491
+2022-07-30 21:36:47,624 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 21:36:48,051 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:36:50,303 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:36:50,309 - werkzeug - INFO -  * Debugger PIN: 585-043-237
+2022-07-30 21:36:50,421 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:36:50] "GET / HTTP/1.1" 200 -
+2022-07-30 21:36:50,985 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:36:50] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:38:04,402 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:38:04] "GET / HTTP/1.1" 200 -
+2022-07-30 21:38:05,036 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:38:05] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:38:37,319 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:38:37] "GET / HTTP/1.1" 200 -
+2022-07-30 21:38:38,194 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:38:38] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:39:03,969 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:39:03] "GET / HTTP/1.1" 200 -
+2022-07-30 21:39:04,523 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:39:04] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:39:24,900 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:39:24] "GET / HTTP/1.1" 200 -
+2022-07-30 21:39:25,142 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:39:25] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:40:37,899 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:40:37] "GET /ff HTTP/1.1" 200 -
+2022-07-30 21:40:38,319 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:40:38] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:40:41,086 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:40:41] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:41:07,878 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 21:41:08,331 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:41:11,523 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:41:11,546 - werkzeug - INFO -  * Debugger PIN: 880-900-262
+2022-07-30 21:41:11,644 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:41:11] "GET / HTTP/1.1" 200 -
+2022-07-30 21:41:11,893 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:41:11] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:41:57,173 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 21:41:57,679 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:42:01,405 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:42:01,426 - werkzeug - INFO -  * Debugger PIN: 129-422-806
+2022-07-30 21:42:01,557 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:42:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-07-30 21:42:01,679 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:42:01] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-07-30 21:42:01,687 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:42:01] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-07-30 21:42:01,932 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:42:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 21:42:02,160 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:42:02] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 21:42:12,837 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 21:42:13,235 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:42:16,394 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:42:16,407 - werkzeug - INFO -  * Debugger PIN: 740-605-692
+2022-07-30 21:42:16,513 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:42:16] "GET / HTTP/1.1" 200 -
+2022-07-30 21:42:16,824 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:42:16] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:43:44,112 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/tes.py', reloading
+2022-07-30 21:43:44,598 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:43:46,674 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:43:46,679 - werkzeug - INFO -  * Debugger PIN: 844-524-711
+2022-07-30 21:43:52,838 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/tes.py', reloading
+2022-07-30 21:43:53,233 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:43:54,911 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:43:54,915 - werkzeug - INFO -  * Debugger PIN: 338-658-034
+2022-07-30 21:45:45,795 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/tes.py', reloading
+2022-07-30 21:45:46,155 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:45:47,947 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:45:47,951 - werkzeug - INFO -  * Debugger PIN: 383-312-850
+2022-07-30 21:46:19,500 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/tes.py', reloading
+2022-07-30 21:46:19,900 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:46:21,611 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:46:21,614 - werkzeug - INFO -  * Debugger PIN: 106-426-786
+2022-07-30 21:46:48,123 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 21:46:48,495 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:46:50,760 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:46:50,765 - werkzeug - INFO -  * Debugger PIN: 619-598-485
+2022-07-30 21:46:51,354 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:46:51] "GET / HTTP/1.1" 200 -
+2022-07-30 21:46:51,705 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:46:51] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:47:02,060 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 21:47:02,572 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:47:04,509 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:47:04,515 - werkzeug - INFO -  * Debugger PIN: 671-008-268
+2022-07-30 21:47:07,183 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:47:07] "GET / HTTP/1.1" 200 -
+2022-07-30 21:47:07,417 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:47:07] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:47:36,235 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 21:47:36,659 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 21:47:38,647 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 21:47:38,651 - werkzeug - INFO -  * Debugger PIN: 265-168-404
+2022-07-30 21:48:22,035 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:48:22] "GET / HTTP/1.1" 200 -
+2022-07-30 21:48:22,343 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:48:22] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:48:42,609 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:48:42] "GET / HTTP/1.1" 200 -
+2022-07-30 21:48:42,872 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:48:42] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:49:19,670 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:49:19] "GET / HTTP/1.1" 200 -
+2022-07-30 21:49:19,933 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:49:19] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:49:32,135 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:49:32] "GET / HTTP/1.1" 200 -
+2022-07-30 21:49:32,411 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:49:32] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:50:41,900 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:50:41] "GET / HTTP/1.1" 200 -
+2022-07-30 21:50:42,176 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:50:42] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:51:04,238 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:51:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-07-30 21:51:04,321 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:51:04] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-07-30 21:51:04,330 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:51:04] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-07-30 21:51:04,658 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:51:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 21:51:04,804 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:51:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 21:51:14,642 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:51:14] "GET / HTTP/1.1" 200 -
+2022-07-30 21:51:14,904 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:51:14] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:51:55,295 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:51:55] "GET / HTTP/1.1" 200 -
+2022-07-30 21:51:55,531 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:51:55] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:52:30,514 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:52:30] "GET / HTTP/1.1" 200 -
+2022-07-30 21:52:30,741 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:52:30] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:57:06,408 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:57:06] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 21:57:06,955 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:57:06] "GET / HTTP/1.1" 200 -
+2022-07-30 21:57:07,178 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 21:57:07] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 22:00:11,696 - werkzeug - INFO -  * Detected change in '/data/data/com.termux/files/home/git/app.py', reloading
+2022-07-30 22:00:12,178 - werkzeug - INFO -  * Restarting with stat
+2022-07-30 22:00:17,034 - werkzeug - WARNING -  * Debugger is active!
+2022-07-30 22:00:17,580 - werkzeug - INFO -  * Debugger PIN: 827-002-467
+2022-07-30 22:01:29,336 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:01:29] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 22:01:29,961 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:01:29] "GET / HTTP/1.1" 200 -
+2022-07-30 22:01:30,209 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:01:30] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 22:01:59,705 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:01:59] "GET / HTTP/1.1" 200 -
+2022-07-30 22:01:59,990 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:01:59] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 22:02:38,224 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:02:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-07-30 22:02:38,289 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:02:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-07-30 22:02:38,293 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:02:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-07-30 22:02:38,477 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:02:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 22:02:38,593 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:02:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 22:04:16,889 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:04:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-07-30 22:04:16,959 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:04:16] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-07-30 22:04:16,973 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:04:16] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-07-30 22:04:17,158 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:04:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 22:04:17,367 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:04:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-07-30 22:04:31,077 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:04:31] "GET / HTTP/1.1" 200 -
+2022-07-30 22:04:31,431 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:04:31] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 22:04:47,251 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:04:47] "GET / HTTP/1.1" 200 -
+2022-07-30 22:04:47,469 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:04:47] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 22:05:30,143 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:05:30] "GET / HTTP/1.1" 200 -
+2022-07-30 22:05:30,580 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:05:30] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 22:05:30,679 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:05:30] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 22:06:04,192 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:06:04] "GET / HTTP/1.1" 200 -
+2022-07-30 22:06:04,834 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:06:04] "GET /favicon.ico HTTP/1.1" 200 -
+2022-07-30 22:06:49,454 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:06:49] "GET / HTTP/1.1" 200 -
+2022-07-30 22:06:50,605 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2022 22:06:50] "GET /favicon.ico HTTP/1.1" 200 -

@@ -4,10 +4,10 @@ import gzip
 import configparser
 import logging
 import logging.config
-from flask import Flask, make_response, request, abort
+from flask import Flask, make_response, render_template, request, abort
 import subprocess
 from flask_httpauth import HTTPBasicAuth
-
+import time
 from pathlib import Path
 
 
@@ -58,7 +58,15 @@ def getRepositoryPath(projectName):
 
 @app.route('/')
 def index():
-    return 'git clone ' + request.url + 'repo-name'
+    #return 'git clone ' + request.url + 'repo-name'
+    pat = "repos"
+    repo = os.listdir(pat)
+    b = []
+    for i in repo:
+        ti_c = os.path.getmtime(pat + "/" + i)
+        c = time.ctime(ti_c)
+        b.append(c)
+    return render_template("index.html", repo=repo, tgl=b, len = len(b))
 
 @app.route("/<string:Repo>", methods=['GET', 'POST', 'DELETE'])
 def repo(Repo):
