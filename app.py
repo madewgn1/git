@@ -70,9 +70,7 @@ def repo(Repo):
 
     if path.is_file():
         p = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
-        baca = open(path_to_file, "r") 
-        a = baca.read()
-        b = baca.close()
+        a = repo.execute(["git", "show", "master:readme"])
         hasil = f'{p} \n\n{a}'
         return hasil
     else:
