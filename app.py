@@ -69,7 +69,7 @@ def repo(Repo):
     #path = Path(path_to_file)
     re = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
 
-    if "readme" in re():
+    if "readme" in str(re)():
         p = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
         a = repo.execute(["git", "show", "master:readme"])
         hasil = f'{p} \n\n{a}'
