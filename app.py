@@ -69,7 +69,7 @@ def repo(Repo):
     #path = Path(path_to_file)
     re = str(repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"]))
 
-    if not "readme" in re():
+    if re is None():
         p = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
         return f'{p}\n\n readme not found'
 
