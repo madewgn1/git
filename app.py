@@ -65,10 +65,11 @@ def repo(Repo):
     repo = Git("repos/"+Repo)
     #if request.method == 'GET':
     # show file list on repos/rRrpo
-    path_to_file = f'{repo}/readme'
-    path = Path(path_to_file)
+    #path_to_file = f'{repo}/readme'
+    #path = Path(path_to_file)
+    re = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
 
-    if path.is_file():
+    if "readme" in re():
         p = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
         a = repo.execute(["git", "show", "master:readme"])
         hasil = f'{p} \n\n{a}'
