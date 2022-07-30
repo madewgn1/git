@@ -156,4 +156,4 @@ def git_upload_pack(project_name):
 
 
 if __name__ == '__main__':
-    app.run(debug=IS_DEBUG_MODE, host=HOST, port=PORT, threaded=THREADED)
+    app.run(debug=IS_DEBUG_MODE, host="0.0.0.0", port=80, threaded=THREADED)
