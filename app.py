@@ -90,7 +90,7 @@ def repo_file(Repo, file):
 
 @app.route("/pull")
 def update():
-    os.system("git pull")
+    a = os.system("git pull")
     return "berhasil di update"
 
 
