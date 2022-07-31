@@ -10,7 +10,7 @@ from flask_httpauth import HTTPBasicAuth
 import time
 from pathlib import Path
 import markdown
-from flask import *
+from flask import Response
 
 auth = HTTPBasicAuth()
 
