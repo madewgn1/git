@@ -10,7 +10,7 @@ from flask_httpauth import HTTPBasicAuth
 import time
 from pathlib import Path
 import markdown
-
+from flask import *
 
 auth = HTTPBasicAuth()
 
@@ -93,9 +93,10 @@ def repo_file(Repo, file):
     repo = Git("repos/"+Repo)
     #if request.method == 'GET':
     # show file list on repos/rRrpo
+
     p = repo.execute(["git", "show", "master:"+file])
 
-    return p
+    return Response(p, mimetype='text/plain')
 
 @app.route("/pull")
 def update():
