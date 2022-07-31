@@ -78,7 +78,7 @@ def repo(Repo):
     #re = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
     try:
         p = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
-        a = repo.execute(["git", "show", "master:'README.md'"])
+        a = repo.execute(["git", "show", "master:readme"])
         return f"{p}\n\n {a}"
 
     except:
