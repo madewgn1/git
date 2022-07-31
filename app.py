@@ -9,6 +9,7 @@ import subprocess
 from flask_httpauth import HTTPBasicAuth
 import time
 from pathlib import Path
+import markdown
 
 
 auth = HTTPBasicAuth()
@@ -79,7 +80,8 @@ def repo(Repo):
     try:
         p = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
         a = repo.execute(["git", "show", "master:readme"])
-        return f"{p}\n\n {a}"
+        c = markdown.markdown(a)
+        return f"{p}\n\n {c}"
 
     except:
         p = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
