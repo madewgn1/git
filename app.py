@@ -81,7 +81,8 @@ def repo(Repo):
         p = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
         a = repo.execute(["git", "show", "master:readme"])
         c = markdown.markdown(a)
-        return f"{p}\n\n {c}"
+        #return f"{p}\n\n {c}"
+        return render_template("repo.html", readme=c)
 
     except:
         p = repo.execute(["git", "ls-tree", "--full-tree", "-r", "--name-only", "HEAD"])
